@@ -8,7 +8,7 @@ add_files -tb ../../common/harness.c
 set_top md
 
 open_solution -reset solution
-set_part virtex7
+set_part "xqzu29dr-ffrf1760-1-i"
 create_clock -period 10
 #source ./grid_dir
 #config_rtl -reset all -reset_level low

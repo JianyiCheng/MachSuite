@@ -8,7 +8,7 @@ add_files check.data
 add_files -tb ../../common/harness.c
 
 set clock 10
-set part virtex7
+set part "xqzu29dr-ffrf1760-1-i"
 
 
 open_solution solution

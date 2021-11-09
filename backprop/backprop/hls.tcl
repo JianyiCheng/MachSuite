@@ -13,7 +13,7 @@ add_files -tb ../../common/harness.c
 set_top backprop
 open_solution -reset solution
 
-set_part virtex7
+set_part "xqzu29dr-ffrf1760-1-i"
 create_clock -period 10
 #source ./stencil_dir
 
