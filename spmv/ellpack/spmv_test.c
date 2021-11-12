@@ -1,6 +1,8 @@
 //http://www.cs.berkeley.edu/~mhoemmen/matrix-seminar/slides/UCB_sparse_tutorial_1.pdf
 #include "spmv.h"
 
+#define MAX 1000
+#define MIN 10
 #define ran (TYPE)(((double) rand() / (RAND_MAX)) * (MAX-MIN) + MIN)
 
 void fillVal(TYPE nzval[N*L], int colind[N*L], TYPE x[N]){

@@ -1,4 +1,5 @@
 #include "fft.h"
+#include <math.h>
 
 int main(){
 	TYPE a_x[512];

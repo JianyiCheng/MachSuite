@@ -1,6 +1,8 @@
 #include "fft.h"
+#include <math.h>
 
 int main(){
+    int size = FFT_SIZE;
     double data_x[size];
     double data_y[size];
     double img[size];
@@ -8,7 +10,7 @@ int main(){
     int i;
 
     //set up twiddles...
-    double twoPI = 6.28318530717959;
+    double twoPI = (double)6.28318530717959;
     double typed;
     int n, N;
     N = size;
