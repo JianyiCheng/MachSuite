@@ -1,25 +1,25 @@
 #select memory resources
-set_directive_resource -core RAM_1P_BRAM "ss_sort" a
-set_directive_resource -core RAM_1P_BRAM "ss_sort" b
-set_directive_resource -core RAM_1P_BRAM "ss_sort" bucket
-set_directive_resource -core RAM_1P_BRAM "ss_sort" sum
+#set_directive_resource -core RAM_1P_BRAM "ss_sort" a
+#set_directive_resource -core RAM_1P_BRAM "ss_sort" b
+#set_directive_resource -core RAM_1P_BRAM "ss_sort" bucket
+#set_directive_resource -core RAM_1P_BRAM "ss_sort" sum
 
-set_directive_resource -core RAM_1P_BRAM "update" a
-set_directive_resource -core RAM_1P_BRAM "update" b
-set_directive_resource -core RAM_1P_BRAM "update" bucket
+#set_directive_resource -core RAM_1P_BRAM "update" a
+#set_directive_resource -core RAM_1P_BRAM "update" b
+#set_directive_resource -core RAM_1P_BRAM "update" bucket
 
-set_directive_resource -core RAM_1P_BRAM "hist" a
-set_directive_resource -core RAM_1P_BRAM "hist" bucket
+#set_directive_resource -core RAM_1P_BRAM "hist" a
+#set_directive_resource -core RAM_1P_BRAM "hist" bucket
 
-set_directive_resource -core RAM_1P_BRAM "init" bucket
+#set_directive_resource -core RAM_1P_BRAM "init" bucket
 
-set_directive_resource -core RAM_1P_BRAM "last_step_scan" bucket
-set_directive_resource -core RAM_1P_BRAM "last_step_scan" sum
+#set_directive_resource -core RAM_1P_BRAM "last_step_scan" bucket
+#set_directive_resource -core RAM_1P_BRAM "last_step_scan" sum
 
-set_directive_resource -core RAM_1P_BRAM "sum_scan" bucket
-set_directive_resource -core RAM_1P_BRAM "sum_scan" sum
+#set_directive_resource -core RAM_1P_BRAM "sum_scan" bucket
+#set_directive_resource -core RAM_1P_BRAM "sum_scan" sum
 
-set_directive_resource -core RAM_1P_BRAM "local_scan" bucket
+#set_directive_resource -core RAM_1P_BRAM "local_scan" bucket
 
 #loop pipelining factors
 #set_directive_pipeline local_scan/local_1

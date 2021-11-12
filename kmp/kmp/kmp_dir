@@ -1,10 +1,10 @@
 #select functional units you want
 
 #select memory resources
-set_directive_resource -core RAM_1P_BRAM "CPF" pattern
-set_directive_resource -core RAM_1P_BRAM "CPF" kmpNext
-set_directive_resource -core RAM_1P_BRAM "kmp" pattern
-set_directive_resource -core RAM_1P_BRAM "kmp" input
+#set_directive_resource -core RAM_1P_BRAM "CPF" pattern
+#set_directive_resource -core RAM_1P_BRAM "CPF" kmpNext
+#set_directive_resource -core RAM_1P_BRAM "kmp" pattern
+#set_directive_resource -core RAM_1P_BRAM "kmp" input
 
 #loop pipelining factors
 #set_directive_pipeline kmp/init

@@ -2,25 +2,25 @@
 #no mults... feel free to sweep other things!
 
 #select memory resources
-set_directive_resource -core RAM_1P_BRAM "aes256_encrypt_ecb" ctx
-set_directive_resource -core RAM_1P_BRAM "aes256_encrypt_ecb" k
-set_directive_resource -core RAM_1P_BRAM "aes256_encrypt_ecb" buf
+#set_directive_resource -core RAM_1P_BRAM "aes256_encrypt_ecb" ctx
+#set_directive_resource -core RAM_1P_BRAM "aes256_encrypt_ecb" k
+#set_directive_resource -core RAM_1P_BRAM "aes256_encrypt_ecb" buf
 
-set_directive_resource -core RAM_1P_BRAM "aes_expandEncKey" k
-set_directive_resource -core RAM_1P_BRAM "aes_expandEncKey" rc
+#set_directive_resource -core RAM_1P_BRAM "aes_expandEncKey" k
+#set_directive_resource -core RAM_1P_BRAM "aes_expandEncKey" rc
 
-set_directive_resource -core RAM_1P_BRAM "aes_mixColumns" buf
+#set_directive_resource -core RAM_1P_BRAM "aes_mixColumns" buf
 
-set_directive_resource -core RAM_1P_BRAM "aes_shiftRows" buf
+#set_directive_resource -core RAM_1P_BRAM "aes_shiftRows" buf
 
-set_directive_resource -core RAM_1P_BRAM "aes_addRoundKey_cpy" buf
-set_directive_resource -core RAM_1P_BRAM "aes_addRoundKey_cpy" key
-set_directive_resource -core RAM_1P_BRAM "aes_addRoundKey_cpy" cpk
+#set_directive_resource -core RAM_1P_BRAM "aes_addRoundKey_cpy" buf
+#set_directive_resource -core RAM_1P_BRAM "aes_addRoundKey_cpy" key
+#set_directive_resource -core RAM_1P_BRAM "aes_addRoundKey_cpy" cpk
 
-set_directive_resource -core RAM_1P_BRAM "add_addRoundKey" buf
-set_directive_resource -core RAM_1P_BRAM "aes_addRoundKey" key
+#set_directive_resource -core RAM_1P_BRAM "add_addRoundKey" buf
+#set_directive_resource -core RAM_1P_BRAM "aes_addRoundKey" key
 
-set_directive_resource -core RAM_1P_BRAM "aes_subBytes" buf
+#set_directive_resource -core RAM_1P_BRAM "aes_subBytes" buf
 
 
 #loop unrolling
@@ -55,7 +55,7 @@ set_directive_resource -core RAM_1P_BRAM "aes_subBytes" buf
 #set_directive_pipeline aes_expandEncKey/exp1
 #set_directive_pipeline aes_expandEncKey/exp2
 
-set_directive_pipeline aes_mixColumns/mix
+#set_directive_pipeline aes_mixColumns/mix
 
 #set_directive_pipeline aes_addRoundKey_cpy/cpkey
 

@@ -2,10 +2,10 @@
 #none..
 
 #select memory resources
-set_directive_resource -core RAM_1P_BRAM "bfs" nodes
-set_directive_resource -core RAM_1P_BRAM "bfs" edges
-set_directive_resource -core RAM_1P_BRAM "bfs" level
-set_directive_resource -core RAM_1P_BRAM "bfs" level_counts
+#set_directive_resource -core RAM_1P_BRAM "bfs" nodes
+#set_directive_resource -core RAM_1P_BRAM "bfs" edges
+#set_directive_resource -core RAM_1P_BRAM "bfs" level
+#set_directive_resource -core RAM_1P_BRAM "bfs" level_counts
 
 #loop pipelining factors
 #set_directive_pipeline bfs/init_horizions

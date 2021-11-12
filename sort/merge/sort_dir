@@ -1,6 +1,6 @@
 #select memory resources
-set_directive_resource -core RAM_1P_BRAM "ms_mergesort" a
-set_directive_resource -core RAM_1P_BRAM "merge" a
+#set_directive_resource -core RAM_1P_BRAM "ms_mergesort" a
+#set_directive_resource -core RAM_1P_BRAM "merge" a
 
 #loop pipelining factors
 #set_directive_pipeline ms_mergesort/mergesort_label1

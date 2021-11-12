@@ -1,10 +1,10 @@
 #select functional units you want
-set_directive_resource -core Mul "stencil3d" mul1
-set_directive_resource -core Mul "stencil3d" mul2
+#set_directive_resource -core Mul "stencil3d" mul1
+#set_directive_resource -core Mul "stencil3d" mul2
 
 #select memory resources
-set_directive_resource -core RAM_1P_BRAM "stencil3d" orig
-set_directive_resource -core RAM_1P_BRAM "stencil3d" sol
+#set_directive_resource -core RAM_1P_BRAM "stencil3d" orig
+#set_directive_resource -core RAM_1P_BRAM "stencil3d" sol
 
 #loop pipelining factors
 set_directive_pipeline stencil3d/loop_height
