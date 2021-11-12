@@ -17,6 +17,6 @@ source ./stencil_dir
 
 
 csynth_design
-cosim_design -rtl verilog -tool modelsim
+cosim_design
 
 exit
