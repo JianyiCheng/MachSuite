@@ -18,3 +18,13 @@ void gemm( TYPE m1[N], TYPE m2[N], TYPE prod[N] ){
         }
     }
 }
+
+int main() {
+
+  srand(9);
+  TYPE m1[N], m2[N], prod[N];
+  gemm(m1, m2, prod);
+
+  return 0;
+}
+
