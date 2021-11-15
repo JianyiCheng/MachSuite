@@ -1,4 +1,4 @@
-open_project gemm_hls
+open_project gemm_syn
 
 add_files gemm.c -cflags "-I ../../common" -csimflags "-I ../../common"
 add_files input.data

@@ -1,4 +1,4 @@
-open_project grid_syn
+open_project md_syn
 
 add_files md.c -cflags "-I ../../common" -csimflags "-I ../../common"
 add_files input.data

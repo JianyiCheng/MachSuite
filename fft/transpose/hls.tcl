@@ -10,7 +10,7 @@ add_files -tb fft_test.c -cflags "-I ../../common -lm" -csimflags "-I ../../comm
 set clock 10
 set part "xqzu29dr-ffrf1760-1-i"
 
-open_solution fft
+open_solution -reset solution
 set_part $part
 create_clock -period $clock
 csim_design
